@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Maven: kcworks.spring.rest:spring-rest-starter-v2:2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/kcworks/spring/rest/spring-rest-starter-v2/2.0-SNAPSHOT/spring-rest-starter-v2-2.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../commons-spring/spring-rest-starter-v2/spring-rest-starter-v2-2.0-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/kcworks/spring/rest/spring-rest-starter-v2/2.0-SNAPSHOT/spring-rest-starter-v2-2.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../commons-spring/spring-rest-starter-v2/spring-rest-starter-v2-2.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/kcworks/spring/rest/spring-rest-starter-v2/2.0-SNAPSHOT/spring-rest-starter-v2-2.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<parsers>
+		<parser class="org.apache.tika.parser.DefaultParser">
+			<!-- never use the Executable Parser -->
+			<!--<parser-exclude class="org.apache.tika.parser.executable.ExecutableParser"/>-->
+			<!--<parser-exclude class="org.apache.tika.parser.ocr.TesseractOCRParser"/>-->
+		</parser>
+	</parsers>
+	<detectors>
+		<!-- All detectors except built-in container ones -->
+		<detector class="org.apache.tika.detect.DefaultDetector">
+<!--			<detector-exclude class="org.apache.tika.parser.pkg.ZipContainerDetector"/>-->
+<!--			<detector-exclude class="org.apache.tika.parser.microsoft.POIFSContainerDetector"/>-->
+		</detector>
+	</detectors>
+	<service-loader loadErrorHandler="WARN"/>
+</properties>

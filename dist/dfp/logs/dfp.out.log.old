@@ -1,0 +1,119 @@
+15:03:17,464 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@4d910fd6 - Adding [jar:file:/C:/java/mvnProjs/commons-service/doc-format-processor/dist/dfp/doc-format-processor.jar!/BOOT-INF/lib/spring-boot-2.7.4.jar!/org/springframework/boot/logging/logback/defaults.xml] to configuration watch list.
+15:03:17,470 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7690781 - URL [jar:file:/C:/java/mvnProjs/commons-service/doc-format-processor/dist/dfp/doc-format-processor.jar!/BOOT-INF/lib/spring-boot-2.7.4.jar!/org/springframework/boot/logging/logback/defaults.xml] is not of type file
+15:03:17,480 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word clr with class [org.springframework.boot.logging.logback.ColorConverter]
+15:03:17,480 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wex with class [org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter]
+15:03:17,481 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wEx with class [org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter]
+15:03:17,500 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.catalina.startup.DigesterFactory] to ERROR
+15:03:17,500 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@49dc7102 - Propagating ERROR level on Logger[org.apache.catalina.startup.DigesterFactory] onto the JUL framework
+15:03:17,502 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.catalina.util.LifecycleBase] to ERROR
+15:03:17,502 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@49dc7102 - Propagating ERROR level on Logger[org.apache.catalina.util.LifecycleBase] onto the JUL framework
+15:03:17,503 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.coyote.http11.Http11NioProtocol] to WARN
+15:03:17,503 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@49dc7102 - Propagating WARN level on Logger[org.apache.coyote.http11.Http11NioProtocol] onto the JUL framework
+15:03:17,503 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.sshd.common.util.SecurityUtils] to WARN
+15:03:17,503 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@49dc7102 - Propagating WARN level on Logger[org.apache.sshd.common.util.SecurityUtils] onto the JUL framework
+15:03:17,505 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.tomcat.util.net.NioSelectorPool] to WARN
+15:03:17,505 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@49dc7102 - Propagating WARN level on Logger[org.apache.tomcat.util.net.NioSelectorPool] onto the JUL framework
+15:03:17,509 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.eclipse.jetty.util.component.AbstractLifeCycle] to ERROR
+15:03:17,509 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@49dc7102 - Propagating ERROR level on Logger[org.eclipse.jetty.util.component.AbstractLifeCycle] onto the JUL framework
+15:03:17,510 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.hibernate.validator.internal.util.Version] to WARN
+15:03:17,510 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@49dc7102 - Propagating WARN level on Logger[org.hibernate.validator.internal.util.Version] onto the JUL framework
+15:03:17,510 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework.boot.actuate.endpoint.jmx] to WARN
+15:03:17,510 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@49dc7102 - Propagating WARN level on Logger[org.springframework.boot.actuate.endpoint.jmx] onto the JUL framework
+15:03:17,511 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+15:03:17,511 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+15:03:17,528 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:03:17,704 |-INFO in ch.qos.logback.core.ConsoleAppender[STDOUT] - Enabling JANSI WindowsAnsiOutputStream for the console.
+15:03:17,863 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - Failed to create WindowsAnsiOutputStream. Falling back on the default stream. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type org.fusesource.jansi.WindowsAnsiOutputStream
+	at ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type org.fusesource.jansi.WindowsAnsiOutputStream
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassNameAndParameter(OptionHelper.java:68)
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassNameAndParameter(OptionHelper.java:39)
+	at 	at ch.qos.logback.core.ConsoleAppender.getTargetStreamForWindows(ConsoleAppender.java:88)
+	at 	at ch.qos.logback.core.ConsoleAppender.start(ConsoleAppender.java:79)
+	at 	at ch.qos.logback.core.joran.action.AppenderAction.end(AppenderAction.java:90)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.callEndAction(Interpreter.java:309)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:193)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:179)
+	at 	at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:62)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:152)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:110)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:53)
+	at 	at org.springframework.boot.logging.logback.LogbackLoggingSystem.configureByResourceUrl(LogbackLoggingSystem.java:188)
+	at 	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:165)
+	at 	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at 	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at 	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at 	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	at 	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at 	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at 	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at 	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at 	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at 	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at 	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at 	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at 	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at 	at java.base/java.util.ArrayList.forEach(Unknown Source)
+	at 	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at 	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at 	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at 	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at 	at kcworks.docs.docfomat.DocFormatProcessorApplication.main(DocFormatProcessorApplication.java:48)
+	at 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:88)
+Caused by: java.lang.reflect.InvocationTargetException
+	at 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at 	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassNameAndParameter(OptionHelper.java:63)
+	at 	... 44 common frames omitted
+Caused by: java.io.IOException: Could not get the screen info: ßc6R„Nºx!qHe0 
+                                                                                                                                               
+	at 	at org.fusesource.jansi.WindowsAnsiOutputStream.getConsoleInfo(WindowsAnsiOutputStream.java:104)
+	at 	at org.fusesource.jansi.WindowsAnsiOutputStream.<init>(WindowsAnsiOutputStream.java:97)
+	at 	... 49 common frames omitted
+15:03:17,874 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+15:03:17,902 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+15:03:17,920 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1725165248 - setting totalSizeCap to 1000 MB
+15:03:17,924 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1725165248 - Archive files will be limited to [10 MB] each.
+15:03:17,934 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1725165248 - No compression will be used
+15:03:17,936 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1725165248 - Will use the pattern X:/logs/doc-format-processor/archived/log_%d{yyyy-MM-dd}_%i.txt for the active file
+15:03:17,939 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@74751b3 - The date pattern is 'yyyy-MM-dd' from file name pattern 'X:/logs/doc-format-processor/archived/log_%d{yyyy-MM-dd}_%i.txt'.
+15:03:17,939 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@74751b3 - Roll-over at midnight.
+15:03:17,953 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@74751b3 - Setting initial period to Sun Mar 26 15:02:51 CST 2023
+15:03:17,970 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:03:17,974 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: X:\logs/doc-format-processor/log.current.txt
+15:03:17,975 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [X:\logs/doc-format-processor/log.current.txt]
+15:03:17,977 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@49dc7102 - Propagating INFO level on Logger[org.springframework] onto the JUL framework
+15:03:17,979 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - org.springframework level set to INFO
+15:03:17,979 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@49dc7102 - Propagating INFO level on Logger[org.hibernate] onto the JUL framework
+15:03:17,980 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - org.hibernate level set to INFO
+15:03:17,980 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@49dc7102 - Propagating INFO level on Logger[com.zaxxer.hikari] onto the JUL framework
+15:03:17,980 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - com.zaxxer.hikari level set to INFO
+15:03:17,980 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@49dc7102 - Propagating ERROR level on Logger[org.apache.poi] onto the JUL framework
+15:03:17,981 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - org.apache.poi level set to ERROR
+15:03:17,981 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@49dc7102 - Propagating INFO level on Logger[org.apache] onto the JUL framework
+15:03:17,981 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - org.apache level set to INFO
+15:03:17,998 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+15:03:17,998 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+15:03:17,999 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+15:03:17,999 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@23c30a20 - Registering current configuration as safe fallback point
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+

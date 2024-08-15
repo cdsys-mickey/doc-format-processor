@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+	<settings>
+	</settings>
+<!--	<jodconverter>-->
+<!--		<key name="enabled" value="true" />-->
+<!--		<key name="office.home"><![CDATA[C:\Program Files\LibreOffice]]></key>-->
+<!--		&lt;!&ndash; port default: 2002 ~ 2009 &ndash;&gt;-->
+<!--		<key name="ports">2006</key>-->
+<!--		&lt;!&ndash; 即使副檔名相同也轉檔, 預設 false &ndash;&gt;-->
+<!--		<key name="always.convert" value="true" />-->
+<!--		&lt;!&ndash; 最大容量, 預設 50 &ndash;&gt;-->
+<!--		<key name="max.mb" value="50" />-->
+<!--	</jodconverter>-->
+	<jwt>
+		<key name="enabled" value="false" />
+		<key name="issuer" value="cdsys" />
+		<key name="secret" value="12247838" />
+		<key name="expires.hours" value="16" />
+
+		<key name="mode" value="header" />
+		<key name="header" value="token" />
+		<key name="header.prefix" value="Bearer " />
+		<key name="cookie.key" value="odf-token" />
+	</jwt>
+</configuration>

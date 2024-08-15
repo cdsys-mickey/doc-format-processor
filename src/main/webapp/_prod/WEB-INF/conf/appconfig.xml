@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+	<settings>
+	</settings>
+<!--	<jodconverter>-->
+<!--		<key name="enabled" value="true" />-->
+<!--		<key name="office.home"><![CDATA[D:\Program Files\LibreOffice]]></key>-->
+<!--		<key name="ports">2002</key>&lt;!&ndash; 2002 ~ 2009 &ndash;&gt;-->
+<!--	</jodconverter>-->
+	<jwt>
+		<key name="issuer" value="cdsys" />
+		<key name="secret" value="12247838" />
+		<key name="expires.hours" value="16" />
+
+		<key name="mode" value="header" />
+		<key name="header" value="token" />
+		<key name="header.prefix" value="Bearer " />
+		<key name="cookie.key" value="odf-token" />
+	</jwt>
+</configuration>

@@ -1,0 +1,1 @@
+move target\*.war "\\km01\d$\Program Files\Apache Software Foundation\Tomcat 8.5\webapps"
