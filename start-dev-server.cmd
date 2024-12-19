@@ -1,1 +1,1 @@
-run dev
+debug dev

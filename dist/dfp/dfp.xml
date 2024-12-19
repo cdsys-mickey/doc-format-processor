@@ -32,5 +32,5 @@
 	<logpath>%BASE%\logs</logpath>
 	<env name="SERVER_PORT" value="9010" />
 	<env name="LOGGING_FOLDER" value="X:\logs" />
-	<env name="MAX_SIZE" value="15MB" />
+	<env name="MAX_SIZE" value="50MB" />
 </service>
